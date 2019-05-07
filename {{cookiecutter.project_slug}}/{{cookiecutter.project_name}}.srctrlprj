@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <source_groups>
+        <source_group_3bc49d80-6e3a-42b4-80d8-336fdf0612c4>
+            <cpp_standard>c++11</cpp_standard>
+            <cross_compilation>
+                <target>
+                    <abi>unknown</abi>
+                    <arch>x86_64</arch>
+                    <sys>unknown</sys>
+                    <vendor>unknown</vendor>
+                </target>
+                <target_options_enabled>0</target_options_enabled>
+            </cross_compilation>
+            <exclude_filters>
+            </exclude_filters>
+            <header_search_paths>
+                <header_search_path>./</header_search_path>
+            </header_search_paths>
+            <name>C++ Source Group</name>
+            <source_extensions>
+                <source_extension>.cpp</source_extension>
+                <source_extension>.cxx</source_extension>
+                <source_extension>.cc</source_extension>
+            </source_extensions>
+            <source_paths>
+                <source_path>./</source_path>
+            </source_paths>
+            <status>enabled</status>
+            <type>C++ Source Group</type>
+            <run_in_parallel>1</run_in_parallel>
+        </source_group_3bc49d80-6e3a-42b4-80d8-336fdf0612c4>
+        <source_group_67f84ecb-508d-42cb-a094-f788e7ac1188>
+            <custom_command>java -jar /home/chqma/IdeaProjects/SourceIndexer/out/artifacts/SourceIndexer_jar/SourceIndexer.jar -d %{DATABASE_FILE_PATH} -s %{SOURCE_FILE_PATH} -l /home/chqma/ctf/SourcetrailDB/build/bindings_java/libsourcetraildb.so</custom_command>
+            <name>Custom Command Source Group</name>
+            <run_in_parallel>1</run_in_parallel>
+            <source_extensions>
+                <source_extension>.php</source_extension>
+            </source_extensions>
+            <source_paths>
+                <source_path>./</source_path>
+            </source_paths>
+            <status>enabled</status>
+            <type>Custom Command Source Group</type>
+        </source_group_67f84ecb-508d-42cb-a094-f788e7ac1188>
+        <source_group_618a948f-1073-453a-a52c-543f24bc48cd>
+            <custom_command>/home/chqma/ctf/SourcetrailPythonIndexer_v0_db23_p2-linux/SourcetrailPythonIndexer --database-file-path=%{DATABASE_FILE_PATH} --source-file-path=%{SOURCE_FILE_PATH}</custom_command>
+            <name>Custom Command Source Group</name>
+            <run_in_parallel>1</run_in_parallel>
+            <source_extensions>
+                <source_extension>.py</source_extension>
+            </source_extensions>
+            <source_paths>
+                <source_path>./</source_path>
+            </source_paths>
+            <status>enabled</status>
+            <type>Custom Command Source Group</type>
+        </source_group_618a948f-1073-453a-a52c-543f24bc48cd>
+    </source_groups>
+    <version>7</version>
+</config>

@@ -1,0 +1,5 @@
+{
+    "git_repository": "git@github.com:NathanUrwin/cookiecutter-git.git",
+    "project_name": "{{cookiecutter.git_repository.split('/')[-1].split('.')[0]}}",
+    "project_slug": "{{ cookiecutter.project_name + '-sourcetrail' }}"
+}
