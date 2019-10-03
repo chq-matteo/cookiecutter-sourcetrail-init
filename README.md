@@ -3,8 +3,8 @@ sourcetrail-init
 
 SourceTrail any project
 
-What's working
---------------
+What's working as of May 2019
+-----------------------------
 
 Basic support of:
 
